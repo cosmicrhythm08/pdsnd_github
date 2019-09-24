@@ -2,10 +2,10 @@
 17-09-2019
 
 ### Project Title
-my_project
+Exploring US Bikeshare Data
 
 ### Description
-The project focuses on the usual affairs of a developer in a software development project using github
+Exploring bikeshare usage pattern in three major cities,Chicago,New York City,Washington with the data provided by MOTIVATE,a bicycle sharing system,computing descriptive statistics to uncover trends in data
 
 ### Files used
 .gitignore
@@ -13,7 +13,7 @@ chicago.csv
 new_york_city.csv
 washington.csv
 bikeshare.py
-README.MD
+
 
 
 ### Credits

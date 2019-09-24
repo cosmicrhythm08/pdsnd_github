@@ -221,8 +221,9 @@ def display_data(df):
                 if row_next_data == "yes":
                     print(df.iloc[c-5:c])
                     c += 5
-                else:
-                    break    
+                elif row_next_data == "no":
+                    break
+                    
                 
             except:
                 print("That's not a valid input...please try again")

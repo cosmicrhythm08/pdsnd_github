@@ -82,7 +82,7 @@ def load_data(city, month, day):
         
         df = df[df['month'] == month]
         
-    if day != 'all': 
+    if day != 'all': #Checking for individual days
         df = df[df['day_of_week'] == day.title()]
         
         

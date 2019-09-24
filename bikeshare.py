@@ -223,7 +223,8 @@ def display_data(df):
                     c += 5
                 elif row_next_data == "no":
                     break
-                    
+                else:
+                    print("Please enter yes or no")    
                 
             except:
                 print("That's not a valid input...please try again")

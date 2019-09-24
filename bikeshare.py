@@ -226,6 +226,8 @@ def display_data(df):
                 
             except:
                 print("That's not a valid input...please try again")
+    else:
+        print("Please type yes or no ")            
             
             
 

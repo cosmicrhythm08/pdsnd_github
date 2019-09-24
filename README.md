@@ -5,7 +5,7 @@
 Exploring US Bikeshare data
 
 ### Description
-Describe what your project is about and what it does
+Exploring bikeshare usage pattern in three major cities,Chicago,New York City,Washington with the data provided by MOTIVATE,a bicycle sharing system,computing descriptive statistics to uncover trends in data
 
 ### Files used
 Include the files used

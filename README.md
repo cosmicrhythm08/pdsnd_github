@@ -19,5 +19,5 @@ bikeshare.py
 ### Credits
 www.google.com
 www.stackoverflow.com
-https://github.com/udacity/pdsnd_github
+www.udacity.com
 

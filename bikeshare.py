@@ -72,17 +72,17 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
     df = pd.read_csv(CITY_DATA[city])
-    df["Start Time"] = pd.to_datetime(df["Start Time"])
+    df["Start Time"] = pd.to_datetime(df["Start Time"]) #Converting Start Time column to date time
     df["month"] = df["Start Time"].dt.month
     df["day_of_week"] = df["Start Time"].dt.weekday_name
     
-    if month != 'all':
+    if month != 'all': #Checking for individual months
         
         month = months.index(month) + 1
         
         df = df[df['month'] == month]
         
-    if day != 'all':
+    if day != 'all': #Checking for individual days
         df = df[df['day_of_week'] == day.title()]
         
         
@@ -221,11 +221,15 @@ def display_data(df):
                 if row_next_data == "yes":
                     print(df.iloc[c-5:c])
                     c += 5
+                elif row_next_data == "no":
+                    break
                 else:
-                    break    
+                    print("Please enter yes or no")    
                 
             except:
                 print("That's not a valid input...please try again")
+    else:
+        print("Please type yes or no ")            
             
             
 
